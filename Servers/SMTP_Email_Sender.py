@@ -12,7 +12,9 @@ import datetime
 def main(option):
 
  if option==1:
-    ###Gmail EXample
+    ###Gmail Example
+    ### It may require to turn on	"Access for less secure apps option" in Gmail accounts
+    ### Otherwise,you may encounter  "smtplib.SMTPAuthenticationError"
     # Specifying the from and to addresses
     fromaddr = 'from@gmail.com'
     toaddrs  = 'to@email.com'
